@@ -1,10 +1,28 @@
+# Python
 __pycache__/
 *.py[cod]
 .venv/
+venv/
 .pytest_cache/
-backend/*.db
-backend/tests/*.db
-node_modules/
-.expo/
+
+# ML artifacts
+ai/artifacts/*.joblib
+!ai/artifacts/.gitkeep
+
+# Node / Expo
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
 mobile/.env
+
+# Environment files
+.env
+.env.*
+!.env.example
+!mobile/.env.example
+
+# Editors / OS
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
