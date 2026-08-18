@@ -3,7 +3,9 @@
 A portfolio-ready **sports outcome simulation** project that demonstrates mobile development, API design, machine learning, testing, documentation, and secure software practices.
 
 > **Important:** This project is for education and simulation only. It does not place real-money wagers and should not be treated as financial or betting advice.
+## Demo
 
+![SportsAI Simulator Demo](sportsai-demo.png)
 ## Architecture
 
 ```text
